@@ -1,2 +1,2 @@
-# Dictionary-with-Python
+# Dictionary with Python
 A simple dictionary with python
