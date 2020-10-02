@@ -16,7 +16,7 @@ from difflib import get_close_matches
 
 data = json.load(open("D:\Courses\Python programs\Getting started\Dictionary\data.json"))
 #print(type(data))
-#print(data["rain"])
+#print(data["rain"])//magraISIS
 def dict(w):
 
     if w in data:
