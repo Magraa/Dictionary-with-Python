@@ -16,7 +16,7 @@ from difflib import get_close_matches
 
 data = json.load(open("D:\Courses\Python programs\Getting started\Dictionary\data.json"))
 #print(type(data))
-#print(data["rain"])
+#print(data["rain"])//magraISIS
 def dict(w):
 
     if w in data:
@@ -38,7 +38,7 @@ def dict(w):
                 #return data[get_close_matches(i, data.keys())]
                 return data[get_close_matches(w, data.keys())[x - 1]]
             else:
-                return "Invalid Input"
+                return "Invalid Input"//sdkjfhsa
     else:
         return "This Word doesn't Exist\nDouble Check it."
 
